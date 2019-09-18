@@ -2,7 +2,6 @@
 .total-s
   TotalSmall
   TotalSmall
-
 </template>
 
 <script>
@@ -11,11 +10,9 @@ import TotalSmall from '@/components/TotalSmall.vue'
 export default {
   name: 'home',
   components: {
-    TotalSmall
-  }
+    TotalSmall,
+  },
 }
 </script>
 
-<style lang="stylus">
-
-</style>
+<style lang="stylus"></style>

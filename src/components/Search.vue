@@ -1,9 +1,7 @@
 <template lang='pug'>
-    .input
-        input(type="text")
-        button
+.input
+  input(type="text")
+  button
 </template>
 
-<style lang="stylus">
-
-</style>
+<style lang="stylus"></style>

@@ -1,6 +1,6 @@
 <template lang="pug">
   .app
-    .sidebar    
+    .sidebar
       TotalSmall
       TotalLarge
       ServerSide
@@ -24,53 +24,53 @@ export default {
     TotalLarge,
     ServerSide,
     BigButton,
-    TotalBlockS
-  }
+    TotalBlockS,
+  },
 }
 </script>
 
 <style lang="stylus">
-@font-face 
-  font-family: 'Roboto'
-  src: url('./assets/fonts//Robotomedium.ttf') format('truetype')
+@font-face
   font-weight: 500
   font-style: normal
-
-@font-face 
   font-family: 'Roboto'
-  src: url('./assets/fonts/Robotobold.ttf') format('truetype')
+  src: url('./assets/fonts//Robotomedium.ttf') format('truetype')
+
+@font-face
   font-weight: 700
   font-style: normal
+  font-family: 'Roboto'
+  src: url('./assets/fonts/Robotobold.ttf') format('truetype')
 
 html
-  background-color #2C313D
+  background-color: #2C313D
 
 body
-  margin 0
+  margin: 0
 
 .sidebar
-  background-color #343945
-  height 100%
-  width 300px
-  position fixed
-  margin 0
-  padding 0
+  position: fixed
+  margin: 0
+  padding: 0
+  width: 300px
+  height: 100%
+  background-color: #343945
 
-h1 
-h3 
-  color #FFFFFF
+h1,
+h3
+  color: #FFFFFF
 
-h3 
-  font-family Roboto
-  font-weight 500
+h3
+  font-weight: 500
+  font-family: Roboto
 
 h1
-  font-family Roboto
-  font-weight 700
+  font-weight: 700
+  font-family: Roboto
 
-button 
-  border none
-  text-align center
-  cursor pointer
-  outline none
+button
+  outline: none
+  border: none
+  text-align: center
+  cursor: pointer
 </style>

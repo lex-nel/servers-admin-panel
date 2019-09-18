@@ -1,7 +1,7 @@
 <template lang="pug">
-    .total-m
-        TotalBlockS
-        TotalLarge
+.total-m
+  TotalBlockS
+  TotalLarge
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
   name: 'home',
   components: {
     TotalBlockS,
-    TotalLarge
-  }
+    TotalLarge,
+  },
 }
 </script>
